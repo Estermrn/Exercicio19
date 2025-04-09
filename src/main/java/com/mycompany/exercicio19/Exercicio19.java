@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.exercicio19;
 
-/**
- *
- * @author daros
- */
 import javax.swing.JOptionPane;
 
 public class Exercicio19 {
@@ -21,7 +13,7 @@ public class Exercicio19 {
         quantidade = Integer.parseInt(JOptionPane.showInputDialog(null, "Escreva um número: "));
     
         for ( int i = 0; i < quantidade; i++ ){
-JOptionPane.showMessageDialog(null,"Frase: " + frase);
+           JOptionPane.showMessageDialog(null,"Frase: " + frase);
 
         }
     }
